@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <!-- some change -->
       <appQuoteHeader :quoteQount="quotes.length" :maxQuotes="maxQuotes"></appQuoteHeader>
       <!-- listening to event from new quote component -->
       <!-- also: @quoteAdded="newQuote($event)" -->
